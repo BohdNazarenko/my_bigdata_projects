@@ -19,7 +19,7 @@ BUCKET_NAME=de--practice
 
 **Задание №1**
 
-* модуль [aws_controller.py](aws_controller.py)
+* модуль [aws_controller.py](object_storage/aws_controller.py)
 
 метод list_files() - возвращает список объектов в бакете!
 
