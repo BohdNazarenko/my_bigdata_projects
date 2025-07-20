@@ -89,14 +89,14 @@ Next → Save rule.
 
 FOLDERS: 
 
-• [new_csv_files](s3_files_handler/new_csv_files) -> для новых csv которые отслеживает watchfiles
+• =s3_files_handler/new_csv_files -> для новых csv которые отслеживает watchfiles
 
-• [tmp](s3_files_handler/tmp) -> для хранения файлов csv с фильтрацией
+• s3_files_handler/tmp -> для хранения файлов csv с фильтрацией
 
-• [archive](s3_files_handler/archive) -> куда перемещаются новые файлы, их архив
+• s3_files_handler/archive -> куда перемещаются новые файлы, их архив
 
 MODULES:
 
-[s3_client.log](s3_files_handler/s3_client.log) -> для логирования всех действий
+[s3_client.log](object_storage/s3_files_handler/s3_client.log) -> для логирования всех действий
 
-[s3_csv_handler.py](s3_files_handler/s3_csv_handler.py) -> реализация
+[s3_csv_handler.py](object_storage/s3_files_handler/s3_csv_handler.py) -> реализация
