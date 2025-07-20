@@ -1,7 +1,7 @@
 services:
   postgres:
     build:
-      context: postgres
+      context: ./postgres
     container_name: postgres_db
     restart: always
     environment:
