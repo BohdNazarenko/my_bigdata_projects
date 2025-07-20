@@ -9,11 +9,11 @@
 
 AWS_ACCESS_KEY_ID=<ваш ключ>
 
-AWS_SECRET_ACCESS_KEY=<ваш секрет>
+AWS_SECRET_ACCESS_KEY=<ваш секрет ключ>
 
-AWS_REGION=eu-central-1     
+AWS_REGION=<region name>    
 
-BUCKET_NAME=de--practice
+BUCKET_NAME=<bucket name>
 
 
 
