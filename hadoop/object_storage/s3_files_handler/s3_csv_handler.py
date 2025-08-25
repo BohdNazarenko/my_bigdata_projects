@@ -10,7 +10,7 @@ from hadoop.object_storage.aws_controller import S3Storage, CONFIG, logging
 # 2) new csv -> read by pandas.DataFrame with filter and save it to temporary new file✅
 # 3) send new data to s3 async to specific bucket folder✅
 # 4) delete new input csv file or send it to archive✅
-# 5) Logs all work time -> file with logs + send file to s3
+# 5) Logs all work time -> file with logs + send file to s3✅
 
 
 CURRENT_DIRECTORY = Path(__file__).resolve().parent
