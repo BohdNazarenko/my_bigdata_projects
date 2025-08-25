@@ -1,1 +1,8 @@
 /hadoop/object_storage/.env
+/.idea/.gitignore
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/my_bigdata_projects.iml
+/.idea/inspectionProfiles/profiles_settings.xml
+/hadoop/object_storage/s3_files_handler/s3_client.log
+/.idea/vcs.xml
