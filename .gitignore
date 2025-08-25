@@ -220,3 +220,8 @@ __marimo__/
 .streamlit/secrets.toml
 
 
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/my_bigdata_projects.iml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
