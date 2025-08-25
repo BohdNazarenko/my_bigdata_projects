@@ -1,5 +1,6 @@
 from itertools import groupby
 
+from pyspark import StorageLevel
 from pyspark.sql import SparkSession
 from pyspark.sql import types as T, functions as F
 
@@ -54,6 +55,8 @@ schema = T.StructType([
 ])
 
 df = spark.createDataFrame(df.rdd, schema=schema)
+
+df = df.persist(StorageLevel.MEMORY_AND_DISK)
 
 df.printSchema()
 df.show()
