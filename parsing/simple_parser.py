@@ -30,6 +30,7 @@ class ProductParser:
     It scrapes product name, image link, and price from multiple pages.
     """
 
+    @staticmethod
     def parse_web_scraping_with_paginator(base_url, max_pages=3, delay=CONFIG["delay"]):
         all_products_data = pd.DataFrame()
         """
