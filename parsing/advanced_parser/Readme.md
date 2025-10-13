@@ -3,29 +3,28 @@ The project demonstrates a complete ETL pipeline using the educational website `
 ## 1. How to Run the Project:
 
 #### 1. Navigate to the project
-cd my_bigdata_projects/parsing/advanced_parser/quotes_spider
+`cd my_bigdata_projects/parsing/advanced_parser/quotes_spider`
 
 #### 2. Activate virtual environment
-source .venv/bin/activate     # macOS/Linux
+`source .venv/bin/activate`     # macOS/Linux
 `.venv\Scripts\activate`      # Windows PowerShell
 
 #### 3. Install dependencies
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 #### 4. Start PostgreSQL (Docker)
-docker compose up -d
+`docker compose up -d`
 
 #### 5. Create and configure .env file
-cp .env.example .env
-# edit values if needed
+`cp .env.example .env`
 
 #### 6. Run the Scrapy spider
-scrapy crawl quotes_scroll
+`scrapy crawl quotes_scroll`
 
 #### 7. Run the Spark job
-python spark_jobs/quotes_raw_to_dwh.py
+`python spark_jobs/quotes_raw_to_dwh.py`
 or:
-spark-submit --packages org.postgresql:postgresql:42.7.4 spark_jobs/quotes_raw_to_dwh.py
+`spark-submit --packages org.postgresql:postgresql:42.7.4 spark_jobs/quotes_raw_to_dwh.py`
 
 
 ## 2. Module Overview
