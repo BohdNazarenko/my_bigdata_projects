@@ -7,7 +7,7 @@ cd my_bigdata_projects/parsing/advanced_parser/quotes_spider
 
 #### 2. Activate virtual environment
 source .venv/bin/activate     # macOS/Linux
-# .venv\Scripts\activate      # Windows PowerShell
+`.venv\Scripts\activate`      # Windows PowerShell
 
 #### 3. Install dependencies
 pip install -r requirements.txt
