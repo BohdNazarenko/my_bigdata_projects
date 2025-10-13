@@ -1,6 +1,6 @@
 The project demonstrates a complete ETL pipeline using the educational website `quotes.toscrape.com`.
 
-1. How to Run the Project:
+## 1. How to Run the Project:
 
 #### 1. Navigate to the project
 cd my_bigdata_projects/parsing/advanced_parser/quotes_spider
@@ -28,7 +28,7 @@ or:
 spark-submit --packages org.postgresql:postgresql:42.7.4 spark_jobs/quotes_raw_to_dwh.py
 
 
-2. Module Overview
+## 2. Module Overview
 
 [quotes_scroll.py](quotes_spider/quotesproj/spiders/quotes_scroll.py) — Demonstrates both dynamic scraping (via Selenium scroll) and static pagination using Scrapy.
 
