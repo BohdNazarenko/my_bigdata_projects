@@ -2,7 +2,7 @@ The project demonstrates a complete ETL pipeline using the educational website `
 
 1. How to Run the Project:
 
-# 1. Navigate to the project
+#### 1. Navigate to the project
 cd my_bigdata_projects/parsing/advanced_parser/quotes_spider
 
 # 2. Activate virtual environment
