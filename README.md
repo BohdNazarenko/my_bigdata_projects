@@ -4,7 +4,7 @@ Mini‑project: Airflow runs all .sql files from the folder every day at 09:00 a
 
 Analysts put their scripts into sources/ — the DAG picks them up automatically.
 
-## What’s inside
+What’s inside
 
 	•	Airflow (webserver, scheduler, worker) + CeleryExecutor
 	•	Redis — task broker
